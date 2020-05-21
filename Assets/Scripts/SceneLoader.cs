@@ -22,4 +22,9 @@ public class SceneLoader : MonoBehaviour
         Application.Quit();
     }
 
+    public void LoadGameOverScene()
+    {
+        SceneManager.LoadScene("Game Over");
+    }
+
 }
